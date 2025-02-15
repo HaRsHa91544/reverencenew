@@ -1,0 +1,242 @@
+
+
+#simg{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head h2{
+    font-family: 'ivymode';
+    margin-top: 0px;
+    font-size: 2.3rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 140px;
+}
+
+.ihead{
+    top: 244px;
+    position: relative;
+    display: flex;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--blue);
+}
+.info {
+    border-radius: 20px;
+    position: absolute;
+    top: -100px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info div {
+    box-shadow: 1px 1px 3px 2px rgba(21, 21, 21, 0.315);
+    position: relative;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: 370;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    width: 350px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.fa-solid.fa-phone,.fa-solid.fa-link,.fa-solid.fa-location-dot{
+    background-color: var(--blue);
+    font-size: 2.1rem;
+    color: var(--lblue);
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    position: absolute;
+    top: -30px;
+    display: grid;
+    align-content: center;
+}
+
+.info h2{
+    font-family: 'ivymode';
+    font-weight: 450;
+    color: var(--blue);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.info p{
+    font-weight: 300;
+}
+.info a{
+    font-weight: 300;
+    transition: all 0.4s ease-in-out;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.info a:hover{
+    color: var(--blue);
+}
+
+#icons{
+    box-shadow: none;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+#icons a{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 6px;
+}
+.info i{
+    text-align: center;
+    color: rgb(94, 94, 94);
+    transition: all 0.3s ease;
+    font-size: 1.8rem;
+    margin-right: 18px;
+    box-shadow: none;
+}
+.head h1 {
+    font-family: 'ivymode';
+    color: var(--blue);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.fa-brands.fa-facebook:hover{
+    font-size: 2.8rem;
+    color: rgb(24, 124, 255);
+}
+
+.fa-brands.fa-instagram:hover{
+    font-size: 2.8rem;
+    background: -webkit-linear-gradient(#ff29d8, #e4a216);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-brands.fa-x-twitter:hover{
+    font-size: 2.8rem;
+    color: black;
+}
+
+.fa-brands.fa-youtube:hover{
+    font-size: 2.8rem;
+    color: rgb(255, 0, 0);
+}
+
+.fa-brands.fa-linkedin:hover{
+    font-size: 2.8rem;
+    color: hsl(210, 94%, 41%);
+}
+
+.fa-brands.fa-whatsapp:hover{
+    font-size: 2.8rem;
+    color: #05b94d;
+}
+.main{
+    width: 100%;
+    height:460px;
+    position: relative;
+}
+
+.mm{
+    font-family: 'ivymode';
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5.5rem;
+    color: white;
+}
+
+.info div span{
+    font-weight: 600;
+}
+
+@media (max-width:800px) {
+    .main{
+        width: 100%;
+        height: 300px;
+    }
+    .mm{
+        font-size: 3rem;
+        white-space: nowrap;
+    }
+    .contact{
+        width: 100%;
+        padding: 0;
+        justify-content: space-around;
+        height: 1200px;
+    }
+    .head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 16%;
+    }
+    .head h2{
+        width: 100%;
+        line-height: 40px;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .ihead{
+        position: static;
+        top: 0;
+        width: 100%;
+        height: 84%;
+    }
+    .info{
+        position: static;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .info div{
+        width: 90%;
+        height: 250px;
+    }
+    #icons{
+        justify-content:space-evenly;
+    }
+    .fa-solid.fa-phone,.fa-solid.fa-link,.fa-solid.fa-location-dot{
+        box-shadow: 1px 1px 5px 3px rgba(21, 21, 21, 0.219);
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}

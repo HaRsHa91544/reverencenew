@@ -1,0 +1,204 @@
+@media (max-width:800px){
+    .vid{
+        height: 300px;
+    }
+    .container{
+        height: 400px;
+    }
+    .contr{
+        flex-direction: column;
+        height: 1300px;
+        justify-content: center;
+    }
+    .contr div{
+        width: 100%;
+        padding: 0;
+        border: none;
+        border-bottom: 1px solid var(--blue);
+    }
+    .contr h4{
+        font-size: 1rem;
+    }
+    .card-wrapper{
+        margin:0 10px 25px;
+    }
+    .card-list .card-item .card-link{
+        width: 100%;
+    }
+    .card-wrapper .swiper-slide-button{
+        display: none;
+    }
+    .about{
+        margin-top: 10px;
+        flex-direction: column;
+        height: 850px;
+    }
+    .about div{
+        padding: 0px;
+        margin: 0;
+        height: 50%;
+        padding: 0;
+        width: 100%;
+    }
+    .about div:first-child{
+        align-items: center;
+        width: 100%;
+    }
+    .about div h2{
+        text-align: center;
+        font-size: 1.7rem;
+        width: 95%;
+        height: auto;
+    }
+    .about .con2{
+        width: 100%;
+        height: 50%;
+    }
+    .about div .para{
+        width: 90%;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .about div:first-child a{
+        display: flex;
+        align-self: center;
+    }
+    .con2 h1{
+        font-size: 3rem;
+    }
+    .con2 p{
+        font-size: 1rem;
+        padding: 12px 25px;
+    }
+    .certi{
+        width: 100%;
+        height: 900px;
+        padding: 10px;
+        padding-bottom: 0;
+    }
+    .certi h1{
+        height: 8%;
+        font-size: 2.3rem;
+    }
+    .certi p{
+        height: 20%;
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    .award-container{
+        height: 72%;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .award-container .award{
+        flex: 0 0 0;
+        height:auto;
+        width: 90%;
+    }
+    .vision{
+        width: 100%;
+        flex-direction: column;
+        height: 650px;
+        justify-content: space-around;
+    }
+    .vpara{
+        align-items: center;
+        padding: 0;
+        height: 65%;
+        width: 100%;
+    }
+    .vision .vpara h2{
+        padding-top: 10px;
+        text-align: center;
+        height: 15%;
+        width: 100%;
+        font-size: 2.3rem;
+    }
+    .vision .vpara p{
+        display: flex;
+        align-items: center;
+        height: 70%;
+        width: 95%;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    .vision .vpara a{
+        align-self: center;
+        height: 15%;
+        align-items: center;
+        justify-content: center;
+    }
+    .vimg{
+        height: 35%;
+        width: 100%;
+    }
+    .vimg img{
+        width: 90%;
+    }
+    .loc{
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+    }
+    .loc div:nth-child(1){
+        justify-content: space-evenly;
+        padding: 0;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+    }
+    .loc div:nth-child(2){
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+    }
+    .loc h2{
+        font-size: 2.3rem;
+    }
+    .loc h3,.loc p{
+        text-align: center;
+        width: 90%;
+        font-size: 1.1rem;
+    }
+    .loc img {
+        margin: 0;
+    }
+    .blog{
+        justify-content: space-evenly;
+        width: 100%;
+        height: 500px;
+    }
+    .blog h1{
+        font-size: 2.3rem;
+        width: 100%;
+        height: 20%;
+    }
+    .blog .inner{
+        border-radius: 15px;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        height: 80%;
+    }
+    .blog .img{
+        margin: 0;
+        width: 90%;
+        height: 50%;
+    }
+    .blog .content{
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        height: 40%;
+    }
+    .content .text {
+        display: none;
+    }
+    .content .title{
+        font-size: 1.3rem;
+        text-align: center;
+        width: 100%;
+    }
+}
